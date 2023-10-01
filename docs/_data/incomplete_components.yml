@@ -946,11 +946,11 @@
       name: A-549
       prefix: cellosaurus
     target:
-      curie: efo:0001086
-      identifier: 0001086
-      link: https://bioregistry.io/efo:0001086
-      name: A549
-      prefix: efo
+      curie: clo:0001601
+      identifier: '0001601'
+      link: https://bioregistry.io/clo:0001601
+      name: A549 cell
+      prefix: clo
   - source:
       curie: cellosaurus:0023
       identifier: CVCL_0023
@@ -958,11 +958,11 @@
       name: A-549
       prefix: cellosaurus
     target:
-      curie: clo:0001601
-      identifier: '0001601'
-      link: https://bioregistry.io/clo:0001601
-      name: A549 cell
-      prefix: clo
+      curie: efo:0001086
+      identifier: 0001086
+      link: https://bioregistry.io/efo:0001086
+      name: A549
+      prefix: efo
   - source:
       curie: cellosaurus:0023
       identifier: CVCL_0023
@@ -2309,11 +2309,11 @@
       name: SiHa
       prefix: cellosaurus
     target:
-      curie: depmap:ACH-000556
-      identifier: ACH-000556
-      link: https://bioregistry.io/depmap:ACH-000556
-      name: SIHA
-      prefix: depmap
+      curie: efo:0002379
+      identifier: 0002379
+      link: https://bioregistry.io/efo:0002379
+      name: SiHa
+      prefix: efo
   - source:
       curie: cellosaurus:0032
       identifier: CVCL_0032
@@ -2321,11 +2321,11 @@
       name: SiHa
       prefix: cellosaurus
     target:
-      curie: efo:0002379
-      identifier: 0002379
-      link: https://bioregistry.io/efo:0002379
-      name: SiHa
-      prefix: efo
+      curie: depmap:ACH-000556
+      identifier: ACH-000556
+      link: https://bioregistry.io/depmap:ACH-000556
+      name: SIHA
+      prefix: depmap
   - source:
       curie: depmap:ACH-000556
       identifier: ACH-000556
@@ -3283,18 +3283,6 @@
       link: https://bioregistry.io/vo:0006001
       name: botulinum antitoxin
       prefix: vo
-  - source:
-      curie: mesh:D001904
-      identifier: D001904
-      link: https://bioregistry.io/mesh:D001904
-      name: Botulinum Antitoxin
-      prefix: mesh
-    target:
-      curie: vo:0006001
-      identifier: '0006001'
-      link: https://bioregistry.io/vo:0006001
-      name: botulinum antitoxin
-      prefix: vo
   nodes:
     cpt:90287:
       identifier: '90287'
@@ -3335,18 +3323,6 @@
       link: https://bioregistry.io/cvx:12
       name: diphtheria antitoxin
       prefix: cvx
-    target:
-      curie: vo:0006005
-      identifier: '0006005'
-      link: https://bioregistry.io/vo:0006005
-      name: diphtheria antitoxin
-      prefix: vo
-  - source:
-      curie: mesh:D004166
-      identifier: D004166
-      link: https://bioregistry.io/mesh:D004166
-      name: Diphtheria Antitoxin
-      prefix: mesh
     target:
       curie: vo:0006005
       identifier: '0006005'
@@ -3464,15 +3440,27 @@
       name: BCG
       prefix: cpt
     target:
+      curie: dron:00012890
+      identifier: 00012890
+      link: https://bioregistry.io/dron:00012890
+      name: BCG Vaccine
+      prefix: dron
+  - source:
+      curie: cpt:90585
+      identifier: '90585'
+      link: https://bioregistry.io/cpt:90585
+      name: BCG
+      prefix: cpt
+    target:
       curie: ncit:C298
       identifier: C298
       link: https://bioregistry.io/ncit:C298
       name: BCG Vaccine
       prefix: ncit
   - source:
-      curie: cpt:90585
-      identifier: '90585'
-      link: https://bioregistry.io/cpt:90585
+      curie: cpt:90728
+      identifier: '90728'
+      link: https://bioregistry.io/cpt:90728
       name: BCG
       prefix: cpt
     target:
@@ -3481,6 +3469,18 @@
       link: https://bioregistry.io/dron:00012890
       name: BCG Vaccine
       prefix: dron
+  - source:
+      curie: cpt:90728
+      identifier: '90728'
+      link: https://bioregistry.io/cpt:90728
+      name: BCG
+      prefix: cpt
+    target:
+      curie: ncit:C298
+      identifier: C298
+      link: https://bioregistry.io/ncit:C298
+      name: BCG Vaccine
+      prefix: ncit
   - source:
       curie: cpt:90728
       identifier: '90728'
@@ -3493,30 +3493,6 @@
       link: https://bioregistry.io/cvx:19
       name: Bacillus Calmette-Guerin vaccine
       prefix: cvx
-  - source:
-      curie: cpt:90728
-      identifier: '90728'
-      link: https://bioregistry.io/cpt:90728
-      name: BCG
-      prefix: cpt
-    target:
-      curie: ncit:C298
-      identifier: C298
-      link: https://bioregistry.io/ncit:C298
-      name: BCG Vaccine
-      prefix: ncit
-  - source:
-      curie: cpt:90728
-      identifier: '90728'
-      link: https://bioregistry.io/cpt:90728
-      name: BCG
-      prefix: cpt
-    target:
-      curie: dron:00012890
-      identifier: 00012890
-      link: https://bioregistry.io/dron:00012890
-      name: BCG Vaccine
-      prefix: dron
   - source:
       curie: cvx:19
       identifier: '19'
@@ -3657,11 +3633,11 @@
       name: Lyme disease vaccine
       prefix: cvx
     target:
-      curie: vo:0000764
-      identifier: '0000764'
-      link: https://bioregistry.io/vo:0000764
-      name: Lyme disease vaccine
-      prefix: vo
+      curie: dron:00016926
+      identifier: 00016926
+      link: https://bioregistry.io/dron:00016926
+      name: Lyme Disease Vaccine
+      prefix: dron
   - source:
       curie: cvx:66
       identifier: '66'
@@ -3669,11 +3645,11 @@
       name: Lyme disease vaccine
       prefix: cvx
     target:
-      curie: dron:00016926
-      identifier: 00016926
-      link: https://bioregistry.io/dron:00016926
-      name: Lyme Disease Vaccine
-      prefix: dron
+      curie: vo:0000764
+      identifier: '0000764'
+      link: https://bioregistry.io/vo:0000764
+      name: Lyme disease vaccine
+      prefix: vo
   - source:
       curie: dron:00016926
       identifier: 00016926
@@ -4175,6 +4151,35 @@
       identifier: '0000761'
       link: https://bioregistry.io/vo:0000761
       name: malaria vaccine
+      prefix: vo
+- edges:
+  - source:
+      curie: cvx:87
+      identifier: '87'
+      link: https://bioregistry.io/cvx:87
+      name: immune globulin, intravenous
+      prefix: cvx
+    target:
+      curie: vo:0005445
+      identifier: '0005445'
+      link: https://bioregistry.io/vo:0005445
+      name: immune globulin, intravenous
+      prefix: vo
+  nodes:
+    cvx:87:
+      identifier: '87'
+      link: https://bioregistry.io/cvx:87
+      name: immune globulin, intravenous
+      prefix: cvx
+    mesh:D016756:
+      identifier: D016756
+      link: https://bioregistry.io/mesh:D016756
+      name: Immunoglobulins, Intravenous
+      prefix: mesh
+    vo:0005445:
+      identifier: '0005445'
+      link: https://bioregistry.io/vo:0005445
+      name: immune globulin, intravenous
       prefix: vo
 - edges:
   - source:
@@ -5518,11 +5523,11 @@
       name: lung abscess
       prefix: doid
     target:
-      curie: hp:0025044
-      identifier: HP:0025044
-      link: https://bioregistry.io/hp:0025044
-      name: Lung abscess
-      prefix: hp
+      curie: ncit:C99090
+      identifier: C99090
+      link: https://bioregistry.io/ncit:C99090
+      name: Lung Abscess
+      prefix: ncit
   - source:
       curie: doid:0060317
       identifier: DOID:0060317
@@ -5530,11 +5535,11 @@
       name: lung abscess
       prefix: doid
     target:
-      curie: ncit:C99090
-      identifier: C99090
-      link: https://bioregistry.io/ncit:C99090
-      name: Lung Abscess
-      prefix: ncit
+      curie: hp:0025044
+      identifier: HP:0025044
+      link: https://bioregistry.io/hp:0025044
+      name: Lung abscess
+      prefix: hp
   - source:
       curie: hp:0025044
       identifier: HP:0025044
@@ -6939,11 +6944,11 @@
       name: methylmalonic acidemia
       prefix: doid
     target:
-      curie: hp:0002912
-      identifier: HP:0002912
-      link: https://bioregistry.io/hp:0002912
-      name: Methylmalonic acidemia
-      prefix: hp
+      curie: mondo:0002012
+      identifier: '0002012'
+      link: https://bioregistry.io/mondo:0002012
+      name: methylmalonic acidemia
+      prefix: mondo
   - source:
       curie: doid:14749
       identifier: DOID:14749
@@ -6951,11 +6956,11 @@
       name: methylmalonic acidemia
       prefix: doid
     target:
-      curie: mondo:0002012
-      identifier: '0002012'
-      link: https://bioregistry.io/mondo:0002012
-      name: methylmalonic acidemia
-      prefix: mondo
+      curie: hp:0002912
+      identifier: HP:0002912
+      link: https://bioregistry.io/hp:0002912
+      name: Methylmalonic acidemia
+      prefix: hp
   - source:
       curie: hp:0002912
       identifier: HP:0002912
@@ -10219,11 +10224,11 @@
       name: cone dystrophy
       prefix: doid
     target:
-      curie: hp:0008020
-      identifier: HP:0008020
-      link: https://bioregistry.io/hp:0008020
-      name: Cone dystrophy
-      prefix: hp
+      curie: mondo:0000455
+      identifier: '0000455'
+      link: https://bioregistry.io/mondo:0000455
+      name: cone dystrophy
+      prefix: mondo
   - source:
       curie: doid:0050795
       identifier: DOID:0050795
@@ -10231,11 +10236,11 @@
       name: cone dystrophy
       prefix: doid
     target:
-      curie: mondo:0000455
-      identifier: '0000455'
-      link: https://bioregistry.io/mondo:0000455
-      name: cone dystrophy
-      prefix: mondo
+      curie: hp:0008020
+      identifier: HP:0008020
+      link: https://bioregistry.io/hp:0008020
+      name: Cone dystrophy
+      prefix: hp
   - source:
       curie: hp:0008020
       identifier: HP:0008020
@@ -11176,11 +11181,11 @@
       name: jaw fracture
       prefix: efo
     target:
-      curie: ncit:C26803
-      identifier: C26803
-      link: https://bioregistry.io/ncit:C26803
-      name: Jaw Fracture
-      prefix: ncit
+      curie: mondo:0100075
+      identifier: '0100075'
+      link: https://bioregistry.io/mondo:0100075
+      name: jaw fracture
+      prefix: mondo
   - source:
       curie: efo:0009612
       identifier: 0009612
@@ -11188,11 +11193,11 @@
       name: jaw fracture
       prefix: efo
     target:
-      curie: mondo:0100075
-      identifier: '0100075'
-      link: https://bioregistry.io/mondo:0100075
-      name: jaw fracture
-      prefix: mondo
+      curie: ncit:C26803
+      identifier: C26803
+      link: https://bioregistry.io/ncit:C26803
+      name: Jaw Fracture
+      prefix: ncit
   - source:
       curie: mondo:0100075
       identifier: '0100075'
@@ -14302,6 +14307,35 @@
       prefix: vo
 - edges:
   - source:
+      curie: vo:0000247
+      identifier: '0000247'
+      link: https://bioregistry.io/vo:0000247
+      name: vaccine efficacy
+      prefix: vo
+    target:
+      curie: vo:0000860
+      identifier: 0000860
+      link: https://bioregistry.io/vo:0000860
+      name: vaccine effectiveness
+      prefix: vo
+  nodes:
+    mesh:D000087507:
+      identifier: D000087507
+      link: https://bioregistry.io/mesh:D000087507
+      name: Vaccine Efficacy
+      prefix: mesh
+    vo:0000247:
+      identifier: '0000247'
+      link: https://bioregistry.io/vo:0000247
+      name: vaccine efficacy
+      prefix: vo
+    vo:0000860:
+      identifier: 0000860
+      link: https://bioregistry.io/vo:0000860
+      name: vaccine effectiveness
+      prefix: vo
+- edges:
+  - source:
       curie: vo:0000642
       identifier: '0000642'
       link: https://bioregistry.io/vo:0000642
@@ -14357,4 +14391,33 @@
       identifier: 0000862
       link: https://bioregistry.io/vo:0000862
       name: Canada
+      prefix: vo
+- edges:
+  - source:
+      curie: chebi:5291
+      identifier: CHEBI:5291
+      link: https://bioregistry.io/chebi:5291
+      name: gelatin
+      prefix: chebi
+    target:
+      curie: mesh:D005780
+      identifier: D005780
+      link: https://bioregistry.io/mesh:D005780
+      name: Gelatin
+      prefix: mesh
+  nodes:
+    chebi:5291:
+      identifier: CHEBI:5291
+      link: https://bioregistry.io/chebi:5291
+      name: gelatin
+      prefix: chebi
+    mesh:D005780:
+      identifier: D005780
+      link: https://bioregistry.io/mesh:D005780
+      name: Gelatin
+      prefix: mesh
+    vo:0003030:
+      identifier: '0003030'
+      link: https://bioregistry.io/vo:0003030
+      name: gelatin
       prefix: vo
